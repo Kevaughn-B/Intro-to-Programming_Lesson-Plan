@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url('/Images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.navlogo{
+    width: 65px;
+    height: auto;
+} 
+.navtitle{
+    font-size: 30px;
+    color: orangered;
+    text-shadow: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: auto;
+}
+.navbar .btn{
+    font-size: 20px;
+    color: orangered;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: right;
+}
