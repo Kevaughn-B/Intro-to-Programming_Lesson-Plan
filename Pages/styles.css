@@ -106,3 +106,44 @@ body{
     background: #ff9393;
 }
 
+.portline{
+    background-color: gray;
+    height: 1.5px;
+}
+.portline1{
+    background-color: indigo;
+    height: 1.5px;
+    width: 100%;
+}
+.portline2{
+    background-color: indigo;
+    height: 1.5px;
+    width: 90%;
+}
+.portline3{
+    background-color: indigo;
+    height: 1.5px;
+    width: 80%;
+}
+.portline4{
+    background-color: indigo;
+    height: 1.5px;
+    width: 62%;
+}
+.portline5{
+    background-color: indigo;
+    height: 1.5px;
+    width: 85%;
+}
+.portlist{
+    display: flex;
+    align-items: center;
+}
+.portlistline{
+    background-color: black;
+    vertical-align: auto;  
+}
+.portnav{
+    display: flex;
+    justify-content: end;
+}
